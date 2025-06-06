@@ -1,0 +1,348 @@
+
+/* Start Global Style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+p,li{
+    color: #686868;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+
+
+
+/* End Global Style */
+
+
+
+
+/*Start Navbar Styles*/
+.header .nav{
+    background-color:white;   
+    padding: 10px 0;
+}
+.header .nav-logo{
+    /* background-color: green; */
+    width: 15%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.header .nav-logo img{
+    width: 100%;
+}
+.header .nav-list{
+    /* background-color: rebeccapurple; */
+    width: 80%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .nav-list ul{
+    text-align: end;
+    list-style-type: none;
+}
+
+.header .nav-list ul li{
+    display: inline-block;
+    padding-inline: 10px;
+    font-size: 18px;
+}
+
+.header .nav-list ul li a{
+    text-decoration: none;
+    color: black;
+}
+/*End Navbar Styles*/
+
+
+/*Start Header Styles*/
+.header{
+    background-image: url(../IMGS/home.jpg);
+    height: 100svh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header .header-content{
+    text-align: center;
+    padding-top: 190px;
+}
+.header .header-content p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 41px;
+    color: white;
+}
+.header .header-content h1{
+    font-size: 76px;
+    line-height: 91px;
+    color: white;
+}
+/*the following button style from UI Verse*/
+.header .header-content button{
+  
+    /* From Uiverse.io by e-coders */ 
+background-color: transparent;
+    position: relative;
+ overflow: hidden;
+ border: 1px solid white;
+ border-radius: 20px;
+ color: white;
+ display: inline-block;
+ font-size: 15px;
+ line-height: 15px;
+ padding: 18px 18px 17px;
+ text-decoration: none;
+ cursor: pointer;
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+
+}
+
+button span:first-child {
+ position: relative;
+ transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+ z-index: 10;
+}
+
+button span:last-child {
+ color: white;
+ display: block;
+ position: absolute;
+ bottom: 0;
+ transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+ z-index: 100;
+ opacity: 0;
+ top: 50%;
+ left: 50%;
+ transform: translateY(225%) translateX(-50%);
+ height: 14px;
+ line-height: 13px;
+}
+
+button:after {
+ content: "";
+ position: absolute;
+ bottom: -50%;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-color: #8E7754;
+ transform-origin: bottom center;
+ transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+ transform: skewY(9.3deg) scaleY(0);
+ z-index: 50;
+}
+
+button:hover:after {
+ transform-origin: bottom center;
+ transform: skewY(9.3deg) scaleY(2);
+}
+
+button:hover span:last-child {
+ transform: translateX(-50%) translateY(-50%);
+ opacity: 1;
+ transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+
+/*End Header Styles*/
+
+
+/*Start who-we-are Styles*/
+.who-we-are{
+    padding:70px 0;
+}
+
+.who-we-are .who-we-are-image{
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.who-we-are .who-we-are-image img{
+width: 100%;
+display: block;
+}
+
+.who-we-are .who-we-are-caption{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 50px;
+
+
+}
+
+.who-we-are .who-we-are-caption ul{
+list-style-type: none;
+}
+
+.who-we-are .who-we-are-caption ul li{
+padding-block: 10px;
+
+}
+
+/*End who-we-are Styles*/
+/* Start our location styles */
+.our-location{
+    background-color: #F8F8F8;
+    padding: 70px;
+}
+
+.our-location .our-location-caption{
+    width: 45%;
+    display: inline-block;
+    padding-right: 50px;
+    vertical-align: top;
+}
+
+.our-location .our-location-image{
+    width: 45%;
+    display: inline-block;
+
+}
+
+.our-location .our-location-image img{
+    width: 100%;
+    display: block;
+}
+
+
+/* End our location styles */
+
+/* Start our-baking styles */
+.our-baking{
+    padding:70px 0 ;
+}
+
+.our-baking .caption{
+    text-align: center;
+}
+.our-baking .images-caption{
+    padding: 50px 0;
+}
+
+.our-baking .images-caption .item{
+    width: 30%;
+    text-align: center;
+    float: left;
+    padding-left: 3%;
+}
+
+.our-baking .images-caption .item img{
+width: 100%;
+display: block;
+}
+
+/* End our-baking styles */
+/* Start contact-information styles */
+.contact-information{
+    padding: 70px 0;
+    background-color: #F8F8F8;
+}
+
+.contact-information .data{
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.contact-information .data p{
+    margin-top: 10px;
+}
+.contact-information .data ul{
+list-style: none;
+}
+
+.contact-information .data ul li{
+    margin: 30px 0;
+}
+
+.contact-information .iframe{
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 100px;
+
+
+}
+/* End contact-information styles */
+
+/* Start upper-footer Style */
+
+.upper-footer{
+    padding: 70px 0;
+    background-color: #403D38;
+}
+.upper-footer h4{
+    color: white;
+}
+
+.upper-footer .item{
+    width: 22%;
+    float: left;
+    text-align: justify;
+    margin: 0 20px;
+
+}
+.upper-footer .item-1 p{
+margin: 10px 0;
+}
+
+.upper-footer .item-2 ul{
+    list-style-type:unset;
+
+}
+.upper-footer .item-2 ul li{
+    margin: 20px 0;
+}
+
+
+
+.upper-footer .item-3 ul{
+    list-style-type:unset;
+
+}
+
+.upper-footer .item-3 ul li{
+    margin: 20px 0;
+}
+
+
+
+.upper-footer .item-4 ul{
+    list-style-type:unset;
+
+}
+
+.upper-footer .item-4 ul li{
+    margin: 20px 0;
+}
+
+/* End upper-footer Style */
+
+
+/* Start lower-footer Style */
+
+.lower-footer{
+    text-align: center;
+     padding: 70px 0;
+    background-color: #353330;
+}
+
+
+/* End lower-footer Style */
+
